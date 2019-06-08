@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lessc ./src/style.less ./dist/style.css && cp ./src/index.html ./dist/index.html && cp ./src/logo.png ./dist/logo.png",
+    "build": "lessc ./src/style.less ./docs/style.css && cp ./src/index.html ./docs/index.html && cp ./src/logo.png ./docs/logo.png",
     "build:watch": "less-watch-compiler src dist style.less",
     "start": "live-server --host=0.0.0.0 --open=./dist",
     "live-server": "live-server"
