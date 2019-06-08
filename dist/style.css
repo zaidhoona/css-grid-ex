@@ -1,0 +1,120 @@
+body {
+  color: #ffffff;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 2em;
+  background: #009688;
+  text-align: center;
+}
+.header img {
+  width: 180px;
+  margin: 0 auto;
+}
+.header-title {
+  margin: 1em 0 0;
+  padding: 0;
+  font-size: 1.5625em;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-description {
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: 1em;
+  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+.title {
+  text-align: center;
+  background-image: url(https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png);
+  background-color: #263238;
+}
+h1 {
+  margin: 0;
+  padding: 1em 0;
+}
+.main-content {
+  background: white;
+  padding: 2em;
+}
+.main-content .news-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-content .news-list li {
+  margin: 0.5em 0;
+  padding: 1em 0;
+  color: #404040;
+  border-bottom: 1px dotted black;
+}
+.main-content .news-list li:last-child {
+  border-bottom: none;
+}
+.main-content .article-title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+}
+.main-content .article-speaker {
+  margin: 0.5em 0;
+  padding: 0;
+}
+.main-content .article-time {
+  margin: 0.5em 0;
+  padding: 0;
+  font-weight: bold;
+}
+.sidebar {
+  background: #009688;
+}
+.sidebar .info {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+}
+.sidebar .info a {
+  color: white;
+  text-decoration: none;
+}
+.sidebar .info li {
+  padding: 1em;
+  text-align: center;
+}
+.sidebar .info li :hover {
+  cursor: pointer;
+}
+.sidebar .info .a11y {
+  color: #272427;
+  background: #7294a5;
+}
+.sidebar .info .coc {
+  background: #425661;
+}
+.sidebar .info .contact {
+  background: #263238;
+}
+.sidebar .info .faq {
+  background: #457579;
+}
+.footer {
+  padding: 1em 2em;
+  background: #009688;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover,
+.footer a:focus {
+  border-bottom: 1px solid white;
+}
