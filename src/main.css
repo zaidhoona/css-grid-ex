@@ -1,0 +1,135 @@
+body {
+    color: #404040;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.site-title {
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.5625em;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c96;
+}
+
+.site-description {
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: 1em;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.masthead {
+    padding: 2em;
+    background: #272427;
+    text-align: center;
+}
+
+.masthead img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.page-title {
+    text-align: center;
+    background-image: url(https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png);
+    background-color: #f5ebe0;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.main-content {
+    background: white;
+    padding: 2em;
+}
+
+.schedule-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.schedule-list li {
+    margin: .5em 0;
+    padding: 1em 0;
+    border-bottom: 1px dotted black;
+}
+
+.schedule-list li:last-child {
+    border-bottom: none;
+}
+
+.talk-title {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+}
+
+.talk-speaker {
+    margin: .5em 0;
+    padding: 0;
+}
+
+.talk-time {
+    margin: .5em 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.sidebar {
+    background: #272427;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+}
+
+.info li {
+    padding: 1em;
+    text-align: center;
+}
+
+.a11y {
+    color: #272427;
+    background: #f1e4d5;
+}
+
+.coc {
+    background: #e7ab46;
+}
+
+.contact {
+    background: #68470d;
+}
+
+.faq {
+    background: #cc9966;
+}
+
+.footer {
+    padding: 1em 2em;
+    background: #272427;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover,
+.footer a:focus {
+    border-bottom: 1px solid white;
+}

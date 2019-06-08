@@ -1,0 +1,153 @@
+@primary-color: #009688;
+@primary-light-color: #263238;
+@primary-font-color: #ffffff;
+@list-color: #404040;
+@primary-font: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+
+body {
+    color: @primary-font-color;
+    font-family: @primary-font;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 2em;
+    background: @primary-color;
+    text-align: center;
+
+    img {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    &-title {
+        margin: 1em 0 0;
+        padding: 0;
+        font-size: 1.5625em;
+        font-family: @primary-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: @primary-font-color;
+    }
+
+    &-description {
+        margin: 0 0 1em;
+        padding: 0;
+        font-size: 1em;
+        font-family: @primary-font;
+        font-weight: 400;
+        color: @primary-font-color;
+    }
+}
+
+.title {
+    text-align: center;
+    background-image: url(https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png);
+    background-color: @primary-light-color;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.main-content {
+    background: white;
+    padding: 2em;
+
+    .news-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+                
+        li {
+            margin: .5em 0;
+            padding: 1em 0;
+            color: @list-color;
+            border-bottom: 1px dotted black;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+    }
+    
+    .article {
+        &-title {
+            margin: 0;
+            padding: 0;
+            line-height: 1.3em;
+        }
+    
+        &-speaker {
+            margin: .5em 0;
+            padding: 0;
+        }
+    
+        &-time {
+            margin: .5em 0;
+            padding: 0;
+            font-weight: bold;
+        }
+    }
+}
+
+.sidebar {
+    background: @primary-color;
+
+    .info {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        li {
+            padding: 1em;
+            text-align: center;
+
+            :hover {
+                cursor: pointer;
+            }
+        }
+
+        .a11y {
+            color: #272427;
+            background: #7294a5;
+        }
+
+        .coc {
+            background: #425661;
+        }
+        
+        .contact {
+            background: #263238;
+        }
+        
+        .faq {
+            background: #457579;
+        }
+    }
+}
+
+
+.footer {
+    padding: 1em 2em;
+    background: @primary-color;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+    a:hover, a:focus {
+        border-bottom: 1px solid white;
+    }
+}

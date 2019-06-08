@@ -1,0 +1,25 @@
+{
+  "name": "css-grid-example",
+  "version": "1.0.0",
+  "description": "An example of CSS Grid",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc ./src/style.less ./dist/style.css && cp ./src/index.html ./dist/index.html && cp ./src/logo.png ./dist/logo.png",
+    "build:watch": "less-watch-compiler src dist style.less",
+    "start": "live-server --host=0.0.0.0 --open=./dist",
+    "live-server": "live-server"
+  },
+  "keywords": [
+    "CSS",
+    "CSS-GRID"
+  ],
+  "author": "Zaid HOONA",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}
